@@ -1,11 +1,5 @@
 {
 
-    // **************
-    // ** SQLTOOLS **
-    // **************
-
-    "sqltools.useNodeRuntime": true,
-
     // ************
     // ** THEMES **
     // ************
@@ -32,6 +26,10 @@
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.fontLigatures": true,
     "editor.copyWithSyntaxHighlighting": true,
+    "window.menuBarVisibility": "toggle",
+    // Solves the terminal underscore problem:
+    // "terminal.integrated.fontWeight": "600",
+    // "terminal.integrated.fontWeightBold": "600",
     // "editor.fontFamily": "Fira Code",
 
     // *****************
@@ -68,6 +66,6 @@
     "explorer.confirmDelete": false,
     "workbench.settings.editor": "json",
     "workbench.settings.useSplitJSON": true,
-    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDragAndDrop": false
     
 }
