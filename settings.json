@@ -15,7 +15,8 @@
     // ************
     // ** EDITOR **
     // ************
-
+    
+    "editor.fontFamily": "'monospace'",
     "editor.tabCompletion": "on",
     "editor.acceptSuggestionOnEnter": false,
     "editor.largeFileOptimizations": false,
