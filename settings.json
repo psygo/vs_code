@@ -25,12 +25,16 @@
     "workbench.startupEditor": "newUntitledFile",
     "workbench.editor.enablePreview": false,
     "editor.multiCursorModifier": "ctrlCmd",
-    "editor.fontLigatures": true,
     "editor.copyWithSyntaxHighlighting": true,
     "window.menuBarVisibility": "toggle",
+    "editor.minimap.renderCharacters": false,
+    
     // Solves the terminal underscore problem:
     // "terminal.integrated.fontWeight": "600",
     // "terminal.integrated.fontWeightBold": "600",
+    
+    // Font Ligatures
+    // "editor.fontLigatures": true,
     // "editor.fontFamily": "Fira Code",
 
     // *****************
