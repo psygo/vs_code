@@ -4,36 +4,41 @@
     // ** THEMES **
     // ************
 
-    "workbench.colorTheme": "One Dark Pro",
-    // "workbench.colorCustomizations": {
+    "workbench.colorTheme": "One Dark Pro",           // Atom Editor's Main Theme
+    // "workbench.colorCustomizations": {             // Can customize each aspect
     //     "[One Dark Pro]": {
     //         "editor.background": "#2F343D"
     //     }
     // },
-    "workbench.iconTheme": "material-icon-theme",
+    "workbench.iconTheme": "material-icon-theme",     // Material Icon Theme 
 
     // ************
     // ** EDITOR **
     // ************
     
-    "editor.fontFamily": "'monospace'",
-    "editor.tabCompletion": "on",
-    "editor.acceptSuggestionOnEnter": false,
-    "editor.largeFileOptimizations": false,
-    "window.zoomLevel": 0,
-    "window.titleBarStyle": "custom",
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.editor.enablePreview": false,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.copyWithSyntaxHighlighting": true,
-    "window.menuBarVisibility": "toggle",
-    "editor.minimap.renderCharacters": false,
+    "editor.fontFamily": "'monospace'",               // Main Font
+    "editor.tabCompletion": "on",                     // Tab Completion
+    "editor.acceptSuggestionOnEnter": "off",          // Enter to complete suggestion?
+    "editor.largeFileOptimizations": false,           // Can be a nuissance sometimes...
+    "window.zoomLevel": 0,                            // Zoom
+    "window.titleBarStyle": "custom",                 // Uses "native" top bar
+    "workbench.startupEditor": "newUntitledFile",     // Untitled file when opening *new* window
+    "workbench.editor.enablePreview": false,          // If on, will 
+    "editor.multiCursorModifier": "ctrlCmd",          // Can alter many lines at the same time with Ctrl
+    "editor.copyWithSyntaxHighlighting": true,        // When copying to other editor, highlighting remains
+    "window.menuBarVisibility": "toggle",             // Menu bar toggles with Alt for a cleaner look
+    "editor.minimap.renderCharacters": false,         // Minimap will render blocks, not characters
     
     // Solves the terminal underscore problem:
+    // (On Linux at least, the underscore will not be shown on the terminall...)
+    // (But this will also make the terminal font bigger and brighter...)
     // "terminal.integrated.fontWeight": "600",
     // "terminal.integrated.fontWeightBold": "600",
     
     // Font Ligatures
+    // Currently only working on Macs.
+    // But first you need to download a special font like:
+    // https://github.com/tonsky/FiraCode
     // "editor.fontLigatures": true,
     // "editor.fontFamily": "Fira Code",
 
@@ -41,8 +46,13 @@
     // ** CODE-RUNNER **
     // *****************
 
-    "code-runner.clearPreviousOutput": true,
-    "code-runner.saveFileBeforeRun": true,
+    // Code Runner is a cool extension that works with many languages
+    // However it is kind of difficult to set up and has some limitations,
+    // especially with respect to environment variables
+    "code-runner.clearPreviousOutput": true, // clears the output of the last run
+    "code-runner.saveFileBeforeRun": true,   // saves file automatically before running it
+
+    // Alternatives for setting up the Python path:
     // "code-runner.executorMap": {
     //     "python":"$pythonPath $fullFileName"
     // },
@@ -50,27 +60,27 @@
         // "python" : "/home/philippe/anaconda3/bin/python"
     //     "python": "$pythonPath -u $fullFileName"
     // },
+    // "code-runner.respectShebang": false,
     
     // *****************
     // ** PYTHON_PATH **
     // *****************
 
-    // "python.pythonPath": "C:\\Users\\Pichau\\Anaconda3", // Anaconda PYTHON_PATH
-    // "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
-    // "python.pythonPath": "C:\\Users\\Pichau\\Anaconda3\\python.exe", // PYTHON_PATH
-    // "code-runner.respectShebang": false,
+    // You can set up the Python path directly through VS Code:
+    // "python.pythonPath": "C:\\Users\\Pichau\\Anaconda3",                   // Anaconda PYTHON_PATH
+    // "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe", // Window Python Path
+    // "python.pythonPath": "C:\\Users\\Pichau\\Anaconda3\\python.exe",       // PYTHON_PATH
 
     // ************
     // ** OTHERS **
     // ************
 
-    "explorer.autoReveal": false,
-    "workbench.statusBar.feedback.visible": false,
-    "editor.suggestSelection": "first",
-    "python.jediEnabled": false,
-    "explorer.confirmDelete": false,
-    "workbench.settings.editor": "json",
-    "workbench.settings.useSplitJSON": true,
-    "explorer.confirmDragAndDrop": false
-    
+    "explorer.autoReveal": false,                  // If True, the file explorer will focus the file you're editing
+    "workbench.statusBar.feedback.visible": false, // Smiley face (changed after VS Code 1.35)
+    "editor.suggestSelection": "first",            // Autoselection of the suggestions
+    "python.jediEnabled": false,                   // If false, uses Microsoft Python Language Server for IntelliSense
+    "explorer.confirmDelete": false,               // Confirmation for file deletion
+    "workbench.settings.editor": "json",           // Which editor to usen when calling the VS Code Settings (Ctrl + ,)
+    "workbench.settings.useSplitJSON": true,       // Whether or not to split the JSON settings in Default and User's
+    "explorer.confirmDragAndDrop": false           // Confirmation for Drag and Drop on the File Explorer
 }
