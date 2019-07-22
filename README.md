@@ -1,4 +1,4 @@
-# VS Code
+# VS Code Settings
 
 Simply copy-paste the settings onto your VS Code user settings (JSON) and it should change everything into something more convenient.
 
