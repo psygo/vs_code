@@ -15,3 +15,9 @@
   - There is also a specific editor that apparently uses VS Code's design that was also created by Microsoft: [Azure Data Studio](https://docs.microsoft.com/en-us/sql/azure-data-studio/download?view=sql-server-2017)
 - [SQLTools](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools)
   - This very cool extension lets you manage all of them database types through in one go. Simply amazing.
+
+
+- [Prettify JSON](https://marketplace.visualstudio.com/items?itemName=mohsen1.prettify-json)
+- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+- [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
+- [reStructuredText](https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext)
