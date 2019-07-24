@@ -28,6 +28,7 @@
     "editor.copyWithSyntaxHighlighting": true,        // When copying to other editor, highlighting remains
     "window.menuBarVisibility": "toggle",             // Menu bar toggles with Alt for a cleaner look
     "editor.minimap.renderCharacters": false,         // Minimap will render blocks, not characters
+    "terminal.integrated.fontSize": 14.5,             // Integrated Terminal Font Size
     
     // Solves the terminal underscore problem:
     // (On Linux at least, the underscore will not be shown on the terminall...)
@@ -82,5 +83,6 @@
     "explorer.confirmDelete": false,               // Confirmation for file deletion
     "workbench.settings.editor": "json",           // Which editor to usen when calling the VS Code Settings (Ctrl + ,)
     "workbench.settings.useSplitJSON": true,       // Whether or not to split the JSON settings in Default and User's
-    "explorer.confirmDragAndDrop": false           // Confirmation for Drag and Drop on the File Explorer
+    "explorer.confirmDragAndDrop": false,          // Confirmation for Drag and Drop on the File Explorer
+    "extensions.ignoreRecommendations": false      // Ignores Extension Recommendations
 }
