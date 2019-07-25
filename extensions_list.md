@@ -15,9 +15,12 @@
   - There is also a specific editor that apparently uses VS Code's design that was also created by Microsoft: [Azure Data Studio](https://docs.microsoft.com/en-us/sql/azure-data-studio/download?view=sql-server-2017)
 - [SQLTools](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools)
   - This very cool extension lets you manage all of them database types through in one go. Simply amazing.
-
-
 - [Prettify JSON](https://marketplace.visualstudio.com/items?itemName=mohsen1.prettify-json)
+  - Easily format JSON files.
 - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+  - Microsoft's Official Python Extension
+  - Special support for Python debugging, linting, etc. There is also support for `Jupyter Notebooks` inside VS Code itself.
 - [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
+  - Incredibly useful if you have to work with CSVs with tons of columns. It also gives you the name of the column if you point your mouse on top of a specific item.
 - [reStructuredText](https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext)
+  - `reStructuredText` is similar to `Markdown`. But it's very common in Python documentation extensions, such as Sphinx. So it's very useful to have syntax and linting support for it &mdash; though, admittedly, this extension could be better.
