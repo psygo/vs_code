@@ -13,5 +13,9 @@
         "args" : {
             "text" : "${selectedText}\u000D"
         }
+    },
+    {
+        "key" : "alt+y",
+        "command" : "macros.copyPasteTerminalAndFocus"
     }
 ]
