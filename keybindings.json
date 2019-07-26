@@ -1,4 +1,17 @@
 [
-    { "key": "ctrl+shift+k", "command": "workbench.action.terminal.focusNext" },     // Go to next terminal
-    { "key": "ctrl+shift+j", "command": "workbench.action.terminal.focusPrevious" }, // Go to previous terminal
+    {   // Go to next terminal
+        "key" : "ctrl+shift+k", 
+        "command" : "workbench.action.terminal.focusNext" 
+    },     
+    {   // Go to previous terminal
+        "key" : "ctrl+shift+j", 
+        "command" : "workbench.action.terminal.focusPrevious" 
+    }, 
+    {   // Execute Highlighted Text on the Integrated Terminal
+        "key" : "alt+t",
+        "command" : "workbench.action.terminal.sendSequence",
+        "args" : {
+            "text" : "${selectedText}\u000D"
+        }
+    }
 ]
