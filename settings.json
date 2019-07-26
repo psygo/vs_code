@@ -84,5 +84,20 @@
     "workbench.settings.editor": "json",           // Which editor to usen when calling the VS Code Settings (Ctrl + ,)
     "workbench.settings.useSplitJSON": true,       // Whether or not to split the JSON settings in Default and User's
     "explorer.confirmDragAndDrop": false,          // Confirmation for Drag and Drop on the File Explorer
-    "extensions.ignoreRecommendations": false      // Ignores Extension Recommendations
+    "extensions.ignoreRecommendations": false,     // Ignores Extension Recommendations
+    
+    // ************
+    // ** MACROS **
+    // ************
+    
+    // Use `alt+y` to copy-paste and execute to the terminal while also focusing on it.
+    "macros": {
+        "copyPasteTerminalAndFocus": [
+            {
+                "command" : "workbench.action.terminal.sendSequence", 
+                "args" : {"text" : "${selectedText}\u000D"}
+            },
+            "workbench.action.terminal.focus"
+        ]
+    }
 }
