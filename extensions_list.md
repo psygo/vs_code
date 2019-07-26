@@ -10,6 +10,9 @@
   - It became incredibly popular with the rise of the [Atom Editor](https://atom.io/) (which was debunked by VS Code).
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
   - A cool alternative is [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons). This icon theme goes very well with VS Code's standard dark theme.
+- [Macros](https://marketplace.visualstudio.com/items?itemName=geddski.macros)
+  - This amazing extension lets you concatenate shortcut commands, a desperately needed feature to the `keybindings.json` file.
+  - I have one example on my settings that uses `alt+y` to copy-paste code and execute it on the Integrated Terminal, while also focusing on it.
 - [SQL Server](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql)
   - An extension created by Microsoft themselves to manage MSSQL databases directly through the editor.
   - There is also a specific editor that apparently uses VS Code's design that was also created by Microsoft: [Azure Data Studio](https://docs.microsoft.com/en-us/sql/azure-data-studio/download?view=sql-server-2017)
