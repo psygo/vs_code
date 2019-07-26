@@ -14,7 +14,7 @@
             "text" : "${selectedText}\u000D"
         }
     },
-    {
+    {   // Copy Paste to the Integrated Terminal and also Focus on it
         "key" : "alt+y",
         "command" : "macros.copyPasteTerminalAndFocus"
     }
