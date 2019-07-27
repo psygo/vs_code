@@ -10,9 +10,12 @@
   - It became incredibly popular with the rise of the [Atom Editor](https://atom.io/) (which was debunked by VS Code).
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
   - A cool alternative is [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons). This icon theme goes very well with VS Code's standard dark theme.
-- [Macros](https://marketplace.visualstudio.com/items?itemName=geddski.macros)
+- [multi-command](https://marketplace.visualstudio.com/items?itemName=ryuta46.multi-command)
+  - As is pointed out in [this StackOverflow post](https://stackoverflow.com/questions/57209750/create-new-macro-shortcut-to-copy-paste-and-execute-code-in-the-integrated-ter), don't use the [Macros](https://marketplace.visualstudio.com/items?itemName=geddski.macros) extension, it is quite outdated.
   - This amazing extension lets you concatenate shortcut commands, a desperately needed feature to the `keybindings.json` file.
-  - I have one example on my settings that uses `alt+y` to copy-paste code and execute it on the Integrated Terminal, while also focusing on it.
+  - I have one example on my settings that uses `alt+t` to copy-paste code and execute it on the Integrated Terminal, while also focusing on it.
+- [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
+  - For those of you who need to create virtual environments and packages that work independently of the user's configurations, Docker is a must. And this extension offers much more than simply a linter, while also being maintained by Microsoft itself.
 - [SQL Server](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql)
   - An extension created by Microsoft themselves to manage MSSQL databases directly through the editor.
   - There is also a specific editor that apparently uses VS Code's design that was also created by Microsoft: [Azure Data Studio](https://docs.microsoft.com/en-us/sql/azure-data-studio/download?view=sql-server-2017)
