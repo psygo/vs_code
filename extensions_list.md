@@ -1,5 +1,7 @@
 # List of Nice VS Code Extensions to Install
 
+The list below is in no particular order actually, as the extensions relative importance depends a lot on what you do and not on their absolute value. Try them and see if you like the experience.
+
 - [Intellicode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
   - This extension uses the power of AI to learn how people code on Github and then give you back suggestions of how to fill yours.
 - [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
@@ -7,7 +9,7 @@
   - Doesn't have that great support for changing environment variables.
 - [One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)
   - In my humble opinion, the best theme ever for coding. It's dark, and doesn't have that big a contrast, which makes it easy on the eyes.
-  - It became incredibly popular with the rise of the [Atom Editor](https://atom.io/) (which was debunked by VS Code).
+  - It became incredibly popular with the rise of the [Atom Editor](https://atom.io/) (which was mostly debunked by VS Code).
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
   - A cool alternative is [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons). This icon theme goes very well with VS Code's standard dark theme.
 - [multi-command](https://marketplace.visualstudio.com/items?itemName=ryuta46.multi-command)
