@@ -90,14 +90,19 @@
     // ** MACROS **
     // ************
     
-    // Use `alt+y` to copy-paste and execute to the terminal while also focusing on it.
-    "macros": {
-        "copyPasteTerminalAndFocus": [
-            {
-                "command" : "workbench.action.terminal.sendSequence", 
-                "args" : {"text" : "${selectedText}\u000D"}
-            },
-            "workbench.action.terminal.focus"
-        ]
-    }
+    // Don't use the `macros` extension (https://marketplace.visualstudio.com/items?itemName=geddski.macros)
+    // It doesn't have good support.
+    // Instead, use the `multi-command` (https://marketplace.visualstudio.com/items?itemName=ryuta46.multi-command)
+    "multiCommand.commands": [
+        {
+            "command": "multiCommand.copyPasteTerminalAndFocus",
+            "sequence": [
+                {
+                    "command" : "workbench.action.terminal.sendSequence", 
+                    "args" : {"text" : "${selectedText}\u000D"}
+                },
+                "workbench.action.terminal.focus"
+            ]
+        },
+    ]
 }
