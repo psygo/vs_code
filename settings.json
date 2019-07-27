@@ -99,7 +99,7 @@
             "sequence": [
                 {
                     "command" : "workbench.action.terminal.sendSequence", 
-                    "args" : {"text" : "${selectedText}\u000D"}
+                    "args" : {"text" : "${selectedText}\u000D"} // `\u000D` is a `Return`
                 },
                 "workbench.action.terminal.focus"
             ]
