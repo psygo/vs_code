@@ -8,14 +8,14 @@
         "command" : "workbench.action.terminal.focusPrevious" 
     }, 
     {   // Execute Highlighted Text on the Integrated Terminal
-        "key" : "alt+t",
+        "key" : "alt+y",
         "command" : "workbench.action.terminal.sendSequence",
         "args" : {
             "text" : "${selectedText}\u000D"
         }
     },
     {   // Copy Paste to the Integrated Terminal and also Focus on it
-        "key" : "alt+y",
-        "command" : "macros.copyPasteTerminalAndFocus"
+        "key" : "alt+t",
+        "command" : "multiCommand.copyPasteTerminalAndFocus"
     }
 ]
