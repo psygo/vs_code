@@ -21,7 +21,7 @@
     "editor.acceptSuggestionOnEnter": "off",          // Enter to complete suggestion?
     "editor.largeFileOptimizations": false,           // Can be a nuissance sometimes...
     "window.zoomLevel": 0,                            // Zoom
-    "window.titleBarStyle": "custom",                 // Uses "native" top bar
+    "window.titleBarStyle": "custom",                 // Ditch the "native" top bar
     "workbench.startupEditor": "newUntitledFile",     // Untitled file when opening *new* window
     "workbench.editor.enablePreview": false,          // If on, will 
     "editor.multiCursorModifier": "ctrlCmd",          // Can alter many lines at the same time with Ctrl
