@@ -9,3 +9,7 @@ There are also some *Shortcut Settings* included, you can also copy-paste them a
 I've included some settings for *Font Ligatures*, but they are currently only working on Macs (I think). You can find more information about the specific font I used (Fira Code) [here](https://github.com/tonsky/FiraCode).
 
 There is also an overly succinct `sh` script to copy the settings files to their proper directories. But they were designed with only `Ubuntu` in mind.
+
+### Note 
+
+I've created a post about this repo on my website, take a look: [fanaro.com.br](http://fanaro.com.br/my-vs-code-settings/).
