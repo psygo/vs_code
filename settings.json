@@ -111,6 +111,7 @@
     // *******************
 
     "markdownlint.config": {
-        "MD007": { "indent": 4 }
+        "MD047" : false,
+        "MD007": {"indent": 4}
     }
 }
