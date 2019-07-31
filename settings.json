@@ -104,5 +104,13 @@
                 "workbench.action.terminal.focus"
             ]
         },
-    ]
+    ],
+    
+    // *******************
+    // ** MARKDOWN LINT **
+    // *******************
+
+    "markdownlint.config": {
+        "MD007": { "indent": 4 }
+    }
 }
