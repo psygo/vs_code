@@ -16,6 +16,9 @@ The list below is in no particular order actually, as the extensions relative im
   - As is pointed out in [this StackOverflow post](https://stackoverflow.com/questions/57209750/create-new-macro-shortcut-to-copy-paste-and-execute-code-in-the-integrated-ter), don't use the [Macros](https://marketplace.visualstudio.com/items?itemName=geddski.macros) extension, it is quite outdated.
   - This amazing extension lets you concatenate shortcut commands, a desperately needed feature to the `keybindings.json` file.
   - I have one example on my settings that uses `alt+t` to copy-paste code and execute it on the Integrated Terminal, while also focusing on it.
+- [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+  - Markdown is essential for developers and this is a *very* complete extensions.
+  - The standards for this extension's warnings are very strict. You can loosen them, and I've included some parameters in the `settings.json` file.
 - [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
   - For those of you who need to create virtual environments and packages that work independently of the user's configurations, Docker is a must. And this extension offers much more than simply a linter, while also being maintained by Microsoft itself.
 - [SQL Server](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql)
