@@ -114,6 +114,7 @@
     "markdownlint.config": {
         "MD007": {"indent": 4}, // Indentation Standaard
         "MD009" : false,        // Trailing Spaces
+        "MD012" : false,        // Multiple Blanks
         "MD025" : false,        // Multiple Top Level Headings
         "MD026" : false,        // Trailing Puctuation
         "MD047" : false,        // EOF at the end of the file
