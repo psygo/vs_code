@@ -110,8 +110,12 @@
     // ** MARKDOWN LINT **
     // *******************
 
+    // Customizing Markdown Standar Configurations
     "markdownlint.config": {
-        "MD047" : false,
-        "MD007": {"indent": 4}
+        "MD007": {"indent": 4}, // Indentation Standaard
+        "MD009" : false,        // Trailing Spaces
+        "MD025" : false,        // Multiple Top Level Headings
+        "MD026" : false,        // Trailing Puctuation
+        "MD047" : false,        // EOF at the end of the file
     }
 }
