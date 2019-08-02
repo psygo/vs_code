@@ -29,6 +29,7 @@
     "window.menuBarVisibility": "toggle",             // Menu bar toggles with Alt for a cleaner look
     "editor.minimap.renderCharacters": false,         // Minimap will render blocks, not characters
     "terminal.integrated.fontSize": 14.5,             // Integrated Terminal Font Size
+    "window.restoreWindows": "none",                  // Opens the firs New Window as an empty one
     
     // Solves the terminal underscore problem:
     // (On Linux at least, the underscore will not be shown on the terminall...)
