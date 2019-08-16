@@ -28,4 +28,8 @@
         "command": "workbench.action.terminal.focusPreviousPane",
         // "when": "terminalFocus"
     },
+    {   // Toggle Activity Bar Visibility
+        "key": "alt+b",
+        "command": "workbench.action.toggleActivityBarVisibility"
+    },
 ]
