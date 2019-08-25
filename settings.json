@@ -118,6 +118,8 @@
         "MD012" : false,        // Multiple Blanks
         "MD025" : false,        // Multiple Top Level Headings
         "MD026" : false,        // Trailing Puctuation
+        "MD031" : false,        // Indented Code Blocks
+        "MD032" : false,        // Stuff in-between Lists
         "MD041" : false,        // First Line Different Headings
         "MD047" : false,        // EOF at the end of the file
     }
