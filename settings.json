@@ -30,6 +30,8 @@
     "editor.minimap.renderCharacters": false,         // Minimap will render blocks, not characters
     "terminal.integrated.fontSize": 14.5,             // Integrated Terminal Font Size
     "window.restoreWindows": "none",                  // Opens the firs New Window as an empty one
+    "workbench.activityBar.visible": false,           // Left Side Activity Bar
+    "editor.rulers": [80],                            // Ruler for Column 80
     
     // Solves the terminal underscore problem:
     // (On Linux at least, the underscore will not be shown on the terminall...)
@@ -122,5 +124,5 @@
         "MD032" : false,        // Stuff in-between Lists
         "MD041" : false,        // First Line Different Headings
         "MD047" : false,        // EOF at the end of the file
-    }
+    },
 }
