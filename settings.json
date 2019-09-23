@@ -33,6 +33,7 @@
     "workbench.activityBar.visible": false,           // Left Side Activity Bar
     "editor.rulers": [80],                            // Ruler for Column 80
     "editor.minimap.maxColumn": 60,                   // Limits Minimap's Width
+    "files.eol": "\n",                                // Enforcing UNIX EOL
     
     // Solves the terminal underscore problem:
     // (On Linux at least, the underscore will not be shown on the terminall...)
