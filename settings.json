@@ -118,14 +118,17 @@
 
     // Customizing Markdown Standar Configurations
     "markdownlint.config": {
-        "MD007": {"indent": 4}, // Indentation Standaard
-        "MD009" : false,        // Trailing Spaces
-        "MD012" : false,        // Multiple Blanks
-        "MD025" : false,        // Multiple Top Level Headings
-        "MD026" : false,        // Trailing Puctuation
-        "MD031" : false,        // Indented Code Blocks
-        "MD032" : false,        // Stuff in-between Lists
-        "MD041" : false,        // First Line Different Headings
-        "MD047" : false,        // EOF at the end of the file
+        "MD007": {      // Indentation Standard
+            "indent": 4
+        },              
+        "MD009": false, // Trailing Spaces
+        "MD012": false, // Multiple Blanks
+        "MD025": false, // Multiple Top Level Headings
+        "MD026": false, // Trailing Puctuation
+        "MD028": false, // Blank after Block Quotes
+        "MD031": false, // Indented Code Blocks
+        "MD032": false, // Stuff in-between Lists
+        "MD041": false, // First Line Different Headings
+        "MD047": false, // EOF at the end of the file
     },
 }
