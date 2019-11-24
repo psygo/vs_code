@@ -5,11 +5,11 @@
     // ************
 
     "workbench.colorTheme": "One Dark Pro",           // Atom Editor's Main Theme
-    // "workbench.colorCustomizations": {             // Can customize each aspect
-    //     "[One Dark Pro]": {
-    //         "editor.background": "#2F343D"
-    //     }
-    // },
+    "workbench.colorCustomizations": {                // Can customize each aspect
+        "[One Dark Pro]": {                           // Optional
+            "tab.activeBorder": "#0A84FF"             // Active Tab Highlighting
+        }
+    },
     "workbench.iconTheme": "material-icon-theme",     // Material Icon Theme 
 
     // ************
