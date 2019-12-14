@@ -41,6 +41,9 @@
     "[html]": {
         "editor.tabSize": 2
     },
+    "[css]": {
+        "editor.tabSize": 2
+    },
     
     // Solves the terminal underscore problem:
     // (On Linux at least, the underscore will not be shown on the terminall...)
