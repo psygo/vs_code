@@ -35,6 +35,12 @@
     "editor.minimap.maxColumn": 60,                   // Limits Minimap's Width
     "files.eol": "\n",                                // Enforcing UNIX EOL
     "terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe", // Default WSL Terminal on Windows
+    "[typescript]": {
+        "editor.tabSize": 2
+    },
+    "[html]": {
+        "editor.tabSize": 2
+    },
     
     // Solves the terminal underscore problem:
     // (On Linux at least, the underscore will not be shown on the terminall...)
