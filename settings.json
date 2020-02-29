@@ -1,40 +1,39 @@
 {
-
     // ************
     // ** THEMES **
     // ************
 
-    "workbench.colorTheme": "One Dark Pro",           // Atom Editor's Main Theme
-    "workbench.colorCustomizations": {                // Can customize each aspect
-        "[One Dark Pro]": {                           // Optional
-            "tab.activeBorderTop": "#0A84FF"          // Active Tab Top Highlighting
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.colorCustomizations": {
+        "[One Dark Pro]": {
+            "tab.activeBorderTop": "#0A84FF"
         }
     },
-    "workbench.iconTheme": "material-icon-theme",     // Material Icon Theme 
+    "workbench.iconTheme": "material-icon-theme",
 
     // ************
     // ** EDITOR **
     // ************
-    
-    "editor.fontFamily": "'monospace'",               // Main Font
-    "editor.tabCompletion": "on",                     // Tab Completion
-    "editor.acceptSuggestionOnEnter": "off",          // Enter to complete suggestion?
-    "editor.largeFileOptimizations": false,           // Can be a nuissance sometimes...
-    "window.zoomLevel": 0,                            // Zoom
-    "window.titleBarStyle": "custom",                 // Ditch the "native" top bar
-    "workbench.startupEditor": "newUntitledFile",     // Untitled file when opening *new* window
-    "workbench.editor.enablePreview": false,          // If on, will 
-    "editor.multiCursorModifier": "ctrlCmd",          // Can alter many lines at the same time with Ctrl
-    "editor.copyWithSyntaxHighlighting": true,        // When copying to other editor, highlighting remains
-    "window.menuBarVisibility": "toggle",             // Menu bar toggles with Alt for a cleaner look
-    "editor.minimap.renderCharacters": false,         // Minimap will render blocks, not characters
-    "terminal.integrated.fontSize": 14.5,             // Integrated Terminal Font Size
-    "window.restoreWindows": "none",                  // Opens the firs New Window as an empty one
-    "workbench.activityBar.visible": false,           // Left Side Activity Bar
-    "editor.rulers": [80],                            // Ruler for Column 80
-    "editor.minimap.maxColumn": 60,                   // Limits Minimap's Width
-    "files.eol": "\n",                                // Enforcing UNIX EOL
-    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe", // Default WSL Terminal on Windows
+
+    "editor.tabCompletion": "on",
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.largeFileOptimizations": false,
+    "window.zoomLevel": 0,
+    "window.titleBarStyle": "custom",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.enablePreview": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.copyWithSyntaxHighlighting": true,
+    "window.menuBarVisibility": "toggle",
+    "editor.minimap.renderCharacters": false,
+    "terminal.integrated.fontSize": 14.5,
+    "window.restoreWindows": "none",
+    "workbench.activityBar.visible": false, 
+    "editor.rulers": [80],
+    "editor.minimap.maxColumn": 60,
+    "files.eol": "\n",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "window.openFilesInNewWindow": "on",
     "[typescript]": {
         "editor.tabSize": 2
     },
@@ -44,100 +43,67 @@
     "[css]": {
         "editor.tabSize": 2
     },
-    
-    // Solves the terminal underscore problem:
-    // (On Linux at least, the underscore will not be shown on the terminall...)
-    // (But this will also make the terminal font bigger and brighter...)
-    // "terminal.integrated.fontWeight": "600",
-    // "terminal.integrated.fontWeightBold": "600",
-    
-    // Font Ligatures
-    // Currently only working on Macs.
-    // But first you need to download a special font like:
-    // https://github.com/tonsky/FiraCode
-    // "editor.fontLigatures": true,
-    // "editor.fontFamily": "Fira Code",
+    "[yaml]": {
+        "editor.tabSize": 2
+    },
+    "explorer.autoReveal": false,
+    "editor.suggestSelection": "first",
+    "python.jediEnabled": false,
+    "explorer.confirmDelete": false,
+    "workbench.settings.editor": "json",
+    "workbench.settings.useSplitJSON": true,
+    "explorer.confirmDragAndDrop": false,
+    "extensions.ignoreRecommendations": false,
+    "files.exclude": {
+        "**/.git": false
+    },
 
-    // *****************
-    // ** CODE-RUNNER **
-    // *****************
-
-    // Code Runner is a cool extension that works with many languages
-    // However it is kind of difficult to set up and has some limitations,
-    // especially with respect to environment variables
-    "code-runner.clearPreviousOutput": true, // clears the output of the last run
-    "code-runner.saveFileBeforeRun": true,   // saves file automatically before running it
-
-    // Alternatives for setting up the Python path:
-    // "code-runner.executorMap": {
-    //     "python":"$pythonPath $fullFileName"
-    // },
-    // "code-runner.executorMap": {
-        // "python" : "/home/philippe/anaconda3/bin/python"
-    //     "python": "$pythonPath -u $fullFileName"
-    // },
-    // "code-runner.respectShebang": false,
-    
-    // *****************
-    // ** PYTHON_PATH **
-    // *****************
-
-    // You can set up the Python path directly through VS Code:
-    // "python.pythonPath": "C:\\Users\\Pichau\\Anaconda3",                   // Anaconda PYTHON_PATH
-    // "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe", // Window Python Path
-    // "python.pythonPath": "C:\\Users\\Pichau\\Anaconda3\\python.exe",       // PYTHON_PATH
-
-    // ************
-    // ** OTHERS **
-    // ************
-
-    "explorer.autoReveal": false,                  // If True, the file explorer will focus the file you're editing
-    "workbench.statusBar.feedback.visible": false, // Smiley face (changed after VS Code 1.35)
-    "editor.suggestSelection": "first",            // Autoselection of the suggestions
-    "python.jediEnabled": false,                   // If false, uses Microsoft Python Language Server for IntelliSense
-    "explorer.confirmDelete": false,               // Confirmation for file deletion
-    "workbench.settings.editor": "json",           // Which editor to usen when calling the VS Code Settings (Ctrl + ,)
-    "workbench.settings.useSplitJSON": true,       // Whether or not to split the JSON settings in Default and User's
-    "explorer.confirmDragAndDrop": false,          // Confirmation for Drag and Drop on the File Explorer
-    "extensions.ignoreRecommendations": false,     // Ignores Extension Recommendations
-    
     // ************
     // ** MACROS **
     // ************
     
-    // Don't use the `macros` extension (https://marketplace.visualstudio.com/items?itemName=geddski.macros)
-    // It doesn't have good support.
-    // Instead, use the `multi-command` (https://marketplace.visualstudio.com/items?itemName=ryuta46.multi-command)
     "multiCommand.commands": [
         {
             "command": "multiCommand.copyPasteTerminalAndFocus",
             "sequence": [
                 {
                     "command" : "workbench.action.terminal.sendSequence", 
-                    "args" : {"text" : "${selectedText}\u000D"} // `\u000D` is a `Return`
+                    "args" : {"text" : "${selectedText}\u000D"} // `\u000D` = Return
                 },
                 "workbench.action.terminal.focus"
             ]
         },
+        {
+            "command": "multicommand.hotReloadCustomShortcut",
+            "sequence": [
+                {
+                    "command" : "workbench.action.terminal.sendSequence", 
+                    "args" : {"text" : "r"}
+                },
+            ]
+        }
     ],
     
-    // *******************
-    // ** MARKDOWN LINT **
-    // *******************
+    // **************
+    // ** MARKDOWN **
+    // **************
 
-    // Customizing Markdown Standar Configurations
     "markdownlint.config": {
-        "MD007": {      // Indentation Standard
+        "MD007": {
             "indent": 4
         },              
-        "MD009": false, // Trailing Spaces
-        "MD012": false, // Multiple Blanks
-        "MD025": false, // Multiple Top Level Headings
-        "MD026": false, // Trailing Puctuation
-        "MD028": false, // Blank after Block Quotes
-        "MD031": false, // Indented Code Blocks
-        "MD032": false, // Stuff in-between Lists
-        "MD041": false, // First Line Different Headings
-        "MD047": false, // EOF at the end of the file
+        "MD009": false,
+        "MD012": false,
+        "MD025": false,
+        "MD026": false,
+        "MD028": false,
+        "MD031": false,
+        "MD032": false,
+        "MD041": false,
+        "MD047": false,
     },
+
+    // ************
+    // ** OTHERS **
+    // ************
 }
