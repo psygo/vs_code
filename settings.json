@@ -57,6 +57,7 @@
     "files.exclude": {
         "**/.git": false
     },
+    "search.smartCase": true,
 
     // ************
     // ** MACROS **
