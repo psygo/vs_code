@@ -1,10 +1,18 @@
 {
-	"blank test": {
-		"prefix": "tex",
-		"body": [
-			"test('$1', () {",
-			"  $2",
-			"});"
-		]
-	}
+    "blank test": {
+        "prefix": "tex",
+	"body": [
+            "test('$1', () {",
+            "  $2",
+            "});"
+        ]
+    },
+    "blank test group": {
+        "prefix": "gex",
+        "body": [
+            "group('$1', () {",
+            "  $2",
+            "});"
+        ]
+    }
 }
