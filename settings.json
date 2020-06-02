@@ -3,7 +3,147 @@
     // ** THEMES **
     // ************
 
+    "workbench.colorTheme": "One Dark Pro",{
+    // ***********
+    // ** PATHS **
+    // ***********
+
+    "python.pythonPath": "C:\\Program Files\\Python38\\python.exe",
+
+    // ************
+    // ** THEMES **
+    // ************
+
     "workbench.colorTheme": "One Dark Pro",
+    "workbench.preferredDarkColorTheme": "One Dark Pro",
+    "workbench.colorCustomizations": {
+        "[One Dark Pro]": {
+            "editor.background": "#282A36",   // Dracula
+            "tab.activeBorderTop": "#0A84FF", // Emulating Firefox's
+        }
+    },
+    "workbench.iconTheme": "material-icon-theme",
+
+    // ************
+    // ** EDITOR **
+    // ************
+
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13,
+    "editor.tabCompletion": "on",
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.largeFileOptimizations": false,
+    "window.zoomLevel": 0,
+    "window.titleBarStyle": "custom",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.enablePreview": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "window.menuBarVisibility": "toggle",
+    "editor.minimap.renderCharacters": false,
+    "terminal.integrated.fontSize": 14.5,
+    "window.restoreWindows": "none",
+    "workbench.activityBar.visible": false, 
+    "editor.rulers": [80],
+    "editor.minimap.maxColumn": 60,
+    "files.eol": "\n",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "window.openFilesInNewWindow": "on",
+    "[typescript]": {
+        "editor.tabSize": 2
+    },
+    "[html]": {
+        "editor.tabSize": 2
+    },
+    "[css]": {
+        "editor.tabSize": 2
+    },
+    "[yaml]": {
+        "editor.tabSize": 2
+    },
+    "explorer.autoReveal": false,
+    "editor.suggestSelection": "first",
+    "python.jediEnabled": false,
+    "explorer.confirmDelete": false,
+    "workbench.settings.editor": "json",
+    "workbench.settings.useSplitJSON": true,
+    "explorer.confirmDragAndDrop": false,
+    "extensions.ignoreRecommendations": false,
+    "search.smartCase": true,
+    "breadcrumbs.enabled": true,
+
+    // ************
+    // ** MACROS **
+    // ************
+    
+    "multiCommand.commands": [
+        {
+            "command": "multiCommand.copyPasteTerminalAndFocus",
+            "sequence": [
+                {
+                    "command" : "workbench.action.terminal.sendSequence", 
+                    "args" : {"text" : "${selectedText}\u000D"} // `\u000D` = Return
+                },
+                "workbench.action.terminal.focus"
+            ]
+        },
+        {
+            "command": "multicommand.hotReloadCustomShortcut",
+            "sequence": [
+                {
+                    "command" : "workbench.action.terminal.sendSequence", 
+                    "args" : {"text" : "r"}
+                },
+            ]
+        }
+    ],
+    
+    // **************
+    // ** MARKDOWN **
+    // **************
+
+    "markdownlint.config": {
+        "MD007": {
+            "indent": 4
+        },              
+        "MD009": false,
+        "MD012": false,
+        "MD025": false,
+        "MD026": false,
+        "MD028": false,
+        "MD031": false,
+        "MD032": false,
+        "MD033": false,
+        "MD041": false,
+        "MD047": false,
+    },
+
+    // ********************
+    // ** DART | FLUTTER **
+    // ********************
+    
+    "files.exclude": {
+        "**/build": true,
+        "**/.dart_tool": true,
+        "**/.flutter-plugins": true,
+        "**/.flutter-plugins-dependencies": true,
+        "**/.git": true,
+        "**/.gitignore": true,
+        "**/.metadata": true,
+        "**/.packages": true,
+        "**/pubspec.lock": true,
+        "**/.vscode": true,
+    },
+
+    // ************
+    // ** OTHERS **
+    // ************
+    
+    "liveServer.settings.donotShowInfoMsg": true,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "todo-tree.tree.showScanModeButton": false,
+    "gitlens.menus": false,
+}
     "workbench.colorCustomizations": {
         "[One Dark Pro]": {
             "tab.activeBorderTop": "#0A84FF"
