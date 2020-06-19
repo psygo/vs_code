@@ -23,6 +23,8 @@
     // ** EDITOR **
     // ************
 
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1,
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "editor.fontSize": 13,
