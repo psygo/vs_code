@@ -58,6 +58,9 @@
     "[yaml]": {
         "editor.tabSize": 2
     },
+    "[powershell]": {
+        "editor.tabSize": 2
+    },
     "explorer.autoReveal": false,
     "editor.suggestSelection": "first",
     "python.jediEnabled": false,
