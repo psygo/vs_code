@@ -1,34 +1,5 @@
 [
-    {   // Go to next terminal
-        "key" : "ctrl+shift+k", 
-        "command" : "workbench.action.terminal.focusNext" 
-    },     
-    {   // Go to previous terminal
-        "key" : "ctrl+shift+j", 
-        "command" : "workbench.action.terminal.focusPrevious" 
-    }, 
-    {   // Execute Highlighted Text on the Integrated Terminal
-        "key" : "alt+y",
-        "command" : "workbench.action.terminal.sendSequence",
-        "args" : {
-            "text" : "${selectedText}\u000D"
-        }
-    },
-    {   // Copy Paste to the Integrated Terminal and also Focus on it
-        "key" : "alt+t",
-        "command" : "multiCommand.copyPasteTerminalAndFocus"
-    },
-    {   // Switch to the Next Pane
-        "key": "alt+right",
-        "command": "workbench.action.terminal.focusNextPane",
-        // "when": "terminalFocus"
-    },
-    {   // Switch to the Previous Pane
-        "key": "alt+left",
-        "command": "workbench.action.terminal.focusPreviousPane",
-        // "when": "terminalFocus"
-    },
-    {   // Toggle Activity Bar Visibility
+    {
         "key": "alt+b",
         "command": "workbench.action.toggleActivityBarVisibility"
     },
