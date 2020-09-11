@@ -117,6 +117,11 @@
         "MD041": false,
         "MD047": false,
     },
+    
+    "markdown.extension.list.indentationSize": "inherit",
+    "markdown.extension.orderedList.autoRenumber": false,
+    "markdown.extension.orderedList.marker": "one",
+    "markdown.extension.print.theme": "dark",
 
     // ********************
     // ** DART | FLUTTER **
@@ -143,4 +148,13 @@
     "diffEditor.ignoreTrimWhitespace": true,
     "todo-tree.tree.showScanModeButton": false,
     "gitlens.menus": false,
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "files.associations": {
+        ".yml": "yaml"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
 }
