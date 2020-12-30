@@ -1,0 +1,9 @@
+{
+  // Use Ctrl + Space for accessing the snippets. Directly tabbing might not work in Markdown in VS Code.
+	"checkbox": {
+		"prefix": "cb",
+		"body": [
+			"- [ ] "
+		]
+	}
+}
