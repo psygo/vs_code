@@ -1,7 +1,23 @@
 [
     {
-        "key": "alt+b",
-        "command": "workbench.action.toggleActivityBarVisibility"
+        "key": "ctrl+k k",
+        "command": "workbench.action.pinEditor",
+        "when": "config.workbench.editor.showTabs && !editorSticky"
+    },
+    {
+        "key": "ctrl+k shift+enter",
+        "command": "-workbench.action.pinEditor",
+        "when": "config.workbench.editor.showTabs && !editorSticky"
+    },
+    {
+        "key": "ctrl+k k",
+        "command": "workbench.action.unpinEditor",
+        "when": "config.workbench.editor.showTabs && editorSticky"
+    },
+    {
+        "key": "ctrl+k shift+enter",
+        "command": "-workbench.action.unpinEditor",
+        "when": "config.workbench.editor.showTabs && editorSticky"
     },
     {
         "key": "ctrl+pagedown",
@@ -12,5 +28,72 @@
         "key": "ctrl+pageup",
         "command": "workbench.action.terminal.focusPrevious",
         "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+k k",
+        "command": "workbench.action.unpinEditor",
+        "when": "activeEditorIsPinned"
+    },
+    {
+        "key": "ctrl+k shift+enter",
+        "command": "-workbench.action.unpinEditor",
+        "when": "activeEditorIsPinned"
+    },
+    {
+        "key": "ctrl+k y",
+        "command": "multiCommand.closeAllEditorsAndLayoutThreeColumns"
+    },
+    {
+        "key": "ctrl+shift+f10",
+        "command": "dart.runAllTestsWithoutDebugging"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-markdown.extension.editing.toggleBold",
+        "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
+    },
+    {
+        "key": "shift+delete",
+        "command": "-editor.action.clipboardCutAction"
+    },
+    {
+        "key": "shift+delete",
+        "command": "editor.action.deleteLines",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "-editor.action.deleteLines",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "bookmarks.toggle",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+k",
+        "command": "-bookmarks.toggle",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+j",
+        "command": "bookmarks.jumpToPrevious",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+j",
+        "command": "-bookmarks.jumpToPrevious",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "bookmarks.jumpToNext",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+l",
+        "command": "-bookmarks.jumpToNext",
+        "when": "editorTextFocus"
     }
 ]
